@@ -1,6 +1,8 @@
-services:
-  img:
-    build: .
-    container_name: nodejs_project_2
-    ports:
-      - 5500:5500
+version: 0.1
+  phases:
+    pre_build:
+      commands:
+        - npm update
+    build:
+      commands:
+        - npm run dev
