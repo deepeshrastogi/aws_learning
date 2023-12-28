@@ -1,0 +1,8 @@
+version: 0.1
+phases:
+pre_build:
+commands:
+- npm update
+build:
+commands:
+- node index.js
