@@ -1,8 +1,9 @@
 version: 0.1
-  phases:
-    pre_build:
-      commands:
-        - npm update
-    build:
-      commands:
-        - npm run dev
+
+phases:
+  pre_build:
+    commands:
+      - npm update
+  build:
+    commands:
+      - npm run dev
