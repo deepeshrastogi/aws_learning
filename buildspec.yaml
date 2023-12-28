@@ -6,4 +6,4 @@ phases:
       - npm update
   build:
     commands:
-      - npm update
+      - npm run build
